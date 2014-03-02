@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}} | {{site.title}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{{assets}}/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="{{assets}}/css/theme.css" rel="stylesheet">
+
+    <!-- Webfonts -->
+    <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ assets }}/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="{{ assets }}/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+
+    <div class="container-fluid" role="main">
+
+      {{> body }}
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{assets}}/js/bootstrap.min.js"></script>
+    <script>$(document).ready(function(){
+       // cache the window object
+       $window = $(window);
+     
+       $('section[data-type="background"]').each(function(){
+         // declare the variable to affect the defined data-type
+         var $scroll = $(this);
+                         
+          $(window).scroll(function() {
+            // HTML5 proves useful for helping with creating JS functions!
+            // also, negative value because we're scrolling upwards                            
+            var yPos = -($window.scrollTop() / $scroll.data('speed'));
+             
+            // background position
+            var coords = '50% '+ yPos + 'px';
+     
+            // move the background
+            $scroll.css({ backgroundPosition: coords });   
+          }); // end window scroll
+       });  // end section function
+    }); // close out script
+
+    /* Create HTML5 element for IE */
+    document.createElement("section");</script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "speakers": [
+    {
+      "twitter": "",
+      "name": "",
+      "portrait": "",
+      "bio": ""
+    },
+    {},
+    {}
+  ],
+  "team": [
+    {
+      "twitter": "PatrickHeneise",
+      "name": "Patrick Heneise",
+      "portrait": "/assets/images/patrick.jpg"
+    },
+    {
+      "twitter": "alina_mierlus",
+      "name": "Alina Mierlus",
+      "portrait": "/assets/images/alina.jpg"
+    }
+  ]
+}

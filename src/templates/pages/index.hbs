@@ -1,0 +1,67 @@
+---
+title: Home
+heading: 'Yo, Assemble!'
+lead: Welcome to my blog!
+---
+
+<div class="row">
+  <section id="intro" data-speed="4" data-type="background">
+    <h1 class="col-sm-offset-1 title">MobileJS</h1>
+    <h2 class="col-sm-offset-1 subtitle">by BarcelonaJS <img class="header-logo" src="/assets/images/logo.png" alt="logo"</h2>
+    <div class="mostimportant">
+      <span class="when">24. May 2014</span><br />
+      <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
+    </div>
+  </section>
+
+  <div class="spacer text-right"><i class="fa fa-twitter"></i> @bcnjs / #mobilejs</div>
+
+  <section class="speakers row">
+    <div class="col-xs-12">
+      <h3 class="col-sm-offset-1">Speakers</h3>
+      {{#each speakers}}
+      <div class="speaker col-xs-12 col-sm-4">
+        {{#if name}}
+          <div class="speaker-portrait" style="background-image: url({{portrait}});"></div>
+          <span class="speaker-name">{{name}}</span>
+          <p><i class="fa fa-twitter"></i> {{twitter}}</p>
+          <p>{{bio}}</p>
+        {{else }}
+          <span class="fa-stack fa-5x">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-question fa-stack-1x"></i>
+          </span>
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+  <section class="sponsors row">
+    <div class="col-xs-12">
+      <h3 class="col-sm-offset-1">Sponsors</h3>
+      <div class="col-xs-12"><p>We're currently looking for sponsors. Interested? <a href="mailto:mobile@barcelonajs.org">Get in touch</a>.</p></div>
+    </div>
+  </section>
+
+  <section class="speakers row">
+    <div class="col-xs-12">
+      <h3 class="col-sm-offset-1">Workshops & More</h3>
+    </div>
+  </section>
+
+  <section class="team row">
+    <div class="col-xs-12">
+      <h3 class="col-sm-offset-1">Team</h3>
+      {{#each team}}
+      <div class="member col-xs-12 col-sm-4">
+        {{#if name}}
+          <div class="member-portrait" style="background-image: url({{portrait}});"></div>
+          <span class="member-name">{{name}}</span>
+          <p><a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a></p>
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </section>
+</div>
