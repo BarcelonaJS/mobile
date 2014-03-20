@@ -1,13 +1,25 @@
 {
   "speakers": [
     {
-      "twitter": "",
-      "name": "",
-      "portrait": "",
-      "bio": ""
+      "twitter": "jrayon",
+      "name": "Javier Rayón",
+      "portrait": "/assets/images/jrayon.jpg",
+      "bio": "Freelance mobile developer using Appcelerator Titanium since 2010. Expert in Appcelerator technologies, including Titanium, Alloy, Appcelerator Cloud Services (ACS) and iOS modules development."
     },
     {},
     {}
+  ],
+  "sponsors": [
+    {
+      "name": "PhoneGap",
+      "logo": "/assets/images/phonegap-logo.jpg",
+      "url": "http://phonegap.com"
+    },
+    {
+      "name": "Appcelerator",
+      "logo": "/assets/images/appc-logo-stacked-light.png",
+      "url": "http://www.appcelerator.com"
+    }
   ],
   "team": [
     {

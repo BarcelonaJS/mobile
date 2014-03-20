@@ -17,10 +17,13 @@
   <section class="agenda row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Agenda</h3>
+      <ul class="agenda-list list-group">
+        <li class="list-group-item">UX mobile patterns in Titanium, Javier Rayón</li>
+      </ul>
     </div>
   </section>
 
-  <!--<section class="speakers row">
+  <section class="speakers row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Speakers</h3>
       {{#each speakers}}
@@ -28,7 +31,7 @@
         {{#if name}}
           <div class="speaker-portrait" style="background-image: url({{portrait}});"></div>
           <span class="speaker-name">{{name}}</span>
-          <p><i class="fa fa-twitter"></i> {{twitter}}</p>
+          <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
           <p>{{bio}}</p>
         {{else }}
           <span class="fa-stack fa-5x">
@@ -39,11 +42,16 @@
       </div>
       {{/each}}
     </div>
-  </section>-->
+  </section>
 
   <section class="sponsors row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Sponsors</h3>
+      {{#each sponsors}}
+      <div class="sponsor col-xs-6 col-sm-2">
+        <a href="{{url}}"><img class="sponsor-logo" src="{{logo}}" alt={{name}} /></a>
+      </div>
+      {{/each}}
       <div class="col-xs-12"><p>We're currently looking for sponsors. Interested? <a href="mailto:mobile@barcelonajs.org">Get in touch</a>.</p></div>
     </div>
   </section>
