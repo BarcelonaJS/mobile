@@ -6,7 +6,12 @@
       "portrait": "/assets/images/jrayon.jpg",
       "bio": "Freelance mobile developer using Appcelerator Titanium since 2010. Expert in Appcelerator technologies, including Titanium, Alloy, Appcelerator Cloud Services (ACS) and iOS modules development."
     },
-    {},
+    {
+      "twitter": "savs",
+      "name": "Andrew Savory",
+      "portrait": "/assets/images/andrew.jpg",
+      "bio": "Andrew is a Senior Technical Product Marketing Manager for Mobile at Adobe. He provides a bridge between engineering and the wider world, ensuring everyone knows about the great new features and functionalities that are being built, and how best to use them. Prior to Adobe, Andrew spent several years working in a mobile consortium building mobile platforms, and also worked extensively in systems integration where he delivered a wide range of enterprise content management solutions. Andrew is also passionate about open source and is a member of the Apache Software Foundation."
+    },
     {}
   ],
   "sponsors": [

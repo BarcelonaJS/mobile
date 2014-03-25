@@ -70,14 +70,13 @@ h3 {
   text-transform:uppercase;
   padding-left:10px;
   background:rgba(36,27,28,0.9);
-  border-bottom:3px solid rgba(35,39,35,0.1);
+  border-bottom:3px solid rgba(35,39,35,0.2);
   color:white;
   display:block;
   font-weight:bold;
-  margin-top:-13%;
-  margin-bottom:8%;
+  margin-bottom:10%;
   position:relative;
-  width:70%;
+  width:100%;
   z-index:100
 }
 
