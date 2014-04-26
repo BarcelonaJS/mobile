@@ -19,6 +19,8 @@
       <h3 class="col-sm-offset-1">Agenda</h3>
       <ul class="agenda-list list-group">
         <li class="list-group-item">UX mobile patterns in Titanium, Javier Rayón</li>
+        <li class="list-group-item">Connecting your Arduino through mobile networks, a practical demo, Javier Zorzano</li>
+        <li class="list-group-item">Hybrid apps with Ionic, Sergio Gimeno</li>
       </ul>
     </div>
   </section>
@@ -26,29 +28,24 @@
   <section class="speakers row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Speakers</h3>
-      {{#each speakers}}
-      <div class="speaker col-xs-12 col-sm-4">
-        {{#if name}}
-          <div class="speaker-portrait" style="background-image: url({{portrait}});"></div>
-          <span class="speaker-name">{{name}}</span>
-          <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
-          <p>{{bio}}</p>
-        {{else }}
-          <span class="fa-stack fa-5x">
-            <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-question fa-stack-1x"></i>
-          </span>
-        {{/if}}
-      </div>
-      {{/each}}
     </div>
+    {{#each speakers}}
+    <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
+      <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url({{portrait}});"></div>
+      <div class="speaker-profile">
+        <span class="speaker-name">{{name}}</span>
+        <p>{{bio}}</p>
+        <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
+      </div>
+    </div>
+    {{/each}}
   </section>
 
   <section class="sponsors row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Sponsors</h3>
       {{#each sponsors}}
-      <div class="sponsor col-xs-6 col-sm-2">
+      <div class="sponsor col-xs-12 col-sm-4 text-center">
         <a href="{{url}}"><img class="sponsor-logo" src="{{logo}}" alt={{name}} /></a>
       </div>
       {{/each}}
@@ -65,15 +62,16 @@
   <section class="team row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Team</h3>
-      {{#each team}}
-      <div class="member col-xs-12 col-sm-4">
-        {{#if name}}
-          <div class="member-portrait" style="background-image: url({{portrait}});"></div>
-          <span class="member-name">{{name}}</span>
-          <p><a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a></p>
-        {{/if}}
-      </div>
-      {{/each}}
     </div>
+    {{#each team}}
+    <div class="member equal col-xs-12 col-sm-12 col-md-6">
+      <div class="member-portrait col-xs-6 col-sm-2" style="background-image: url({{portrait}});"></div>
+      <div class="member-profile">
+        <span class="member-name">{{name}}</span>
+        <p>{{bio}}</p>
+        <a href="http://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i> {{twitter}}</a>
+      </div>
+    </div>
+    {{/each}}
   </section>
 </div>

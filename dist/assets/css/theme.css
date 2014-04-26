@@ -58,9 +58,15 @@ h3 {
   margin-top: 50px;
 }
 
+.speaker, .member {
+  margin-bottom: 66px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .speaker-portrait, .member-portrait {
-  width: 100%;
-  height: 200px;
+  min-width: 150px;
+  height: 400px;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -74,10 +80,17 @@ h3 {
   color:white;
   display:block;
   font-weight:bold;
-  margin-bottom:10%;
-  position:relative;
+  margin-bottom:10px;
   width:100%;
   z-index:100
+}
+
+.speaker-profile, .member-profile {
+  padding: 10px;
+}
+
+.sponsor-logo {
+  max-width: 250px;
 }
 
 .mostimportant {
@@ -86,4 +99,9 @@ h3 {
   padding: 25px;
   color: white;
   background-color: rgba(255,0,0,0.5);;
+}
+
+div.equal {
+  display: -webkit-flex;
+  display: flex;
 }

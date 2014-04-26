@@ -10,11 +10,33 @@
       "twitter": "savs",
       "name": "Andrew Savory",
       "portrait": "/assets/images/andrew.jpg",
-      "bio": "Andrew is a Senior Technical Product Marketing Manager for Mobile at Adobe. He provides a bridge between engineering and the wider world, ensuring everyone knows about the great new features and functionalities that are being built, and how best to use them. Prior to Adobe, Andrew spent several years working in a mobile consortium building mobile platforms, and also worked extensively in systems integration where he delivered a wide range of enterprise content management solutions. Andrew is also passionate about open source and is a member of the Apache Software Foundation."
+      "bio": "Andrew is a Senior Technical Product Marketing Manager for Mobile at Adobe. He provides a bridge between engineering and the wider world. Prior to Adobe, Andrew spent several years working in a mobile consortium building mobile platforms. He is passionate about open source and is a member of the Apache Software Foundation."
     },
-    {}
+    {
+      "twitter": "mepartoconmigo",
+      "name": "Francisco Jordano",
+      "portrait": "/assets/images/francisco.jpg",
+      "bio": "Francisco is crazy about web technologies and the web. With several years of experience in mobile web, has been expending the last 2 years working in Firefox OS and the Mozilla family, helping with the core applications and operating system. Passionate about the web and sharing knowledge, loves to teach and learn every single day."
+    },
+    {
+      "twitter": "zorzano",
+      "name": "Javier Zorzano",
+      "portrait": "/assets/images/javier.jpg",
+      "bio": "Javier Zorzano is a telecommunications engineer, leading the Telefonica Physical Internet Lab. This lab, working between Madrid and Barcelona, aims to democratize the Internet of Things, opening it to developers, entrepeneurs, companies and even general public."
+    },
+    {
+      "twitter": "_sgimeno",
+      "name": "Sergio Gimeno",
+      "portrait": "/assets/images/sergio.jpg",
+      "bio": "Sergio a freelance web/mobile developer at Agilogy and one of the AngularJS-Barcelona group organizers. He's been using PhoneGap/Cordova since 2011 and playing around with many HTML5 single-page and mobile frameworks such as jQuery Mobile, Sencha Touch, Backbone or AngularJS."
+    }
   ],
   "sponsors": [
+    {
+      "name": "Mozilla",
+      "logo": "/assets/images/mozilla.png",
+      "url": "http://mozilla.org"
+    },
     {
       "name": "PhoneGap",
       "logo": "/assets/images/phonegap-logo.jpg",
@@ -24,18 +46,25 @@
       "name": "Appcelerator",
       "logo": "/assets/images/appc-logo-stacked-light.png",
       "url": "http://www.appcelerator.com"
+    },
+    {
+      "name": "Telefonica",
+      "logo": "/assets/images/telefonica.jpg",
+      "url": "http://www.telefonica.es"
     }
   ],
   "team": [
     {
       "twitter": "PatrickHeneise",
       "name": "Patrick Heneise",
-      "portrait": "/assets/images/patrick.jpg"
+      "portrait": "/assets/images/patrick.jpg",
+      "bio": "Patrick is Software Architect, engineering (mobile) solutions from server side services and APIs in node.js to html5 apps in JavaScript. He organises BarcelonaJS and the Couchbase Group Barcelona."
     },
     {
       "twitter": "alina_mierlus",
       "name": "Alina Mierlus",
-      "portrait": "/assets/images/alina.jpg"
+      "portrait": "/assets/images/alina.jpg",
+      "bio": "Alina is a geek and web developer. She has been contributing to Mozilla since 2007 by helping the Romanian and Catalan teams to build a diverse community."
     }
   ]
 }

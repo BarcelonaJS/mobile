@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MobileJS by BarcelonaJS</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MobileJS by BarcelonaJS</title>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/theme.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!-- Webfonts -->
-    <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="assets/css/theme.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Webfonts -->
+  <script type="text/javascript" src="//use.typekit.net/mqp5ibc.js"></script>
+  <script type="text/javascript">
+    try {
+      Typekit.load();
+    } catch (e) {}
+  </script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-  </head>
-  <body>
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
 
-    <div class="container-fluid" role="main">
+<body>
 
-      <div class="row">
+  <div class="container-fluid" role="main">
+
+    <div class="row">
   <section id="intro" data-speed="4" data-type="background">
     <h1 class="col-sm-offset-1 title">MobileJS</h1>
     <h2 class="col-sm-offset-1 subtitle">by BarcelonaJS <a href="http://barcelonajs.org"><img class="header-logo" src="/assets/images/logo.png" alt="logo" /></a></h2>
@@ -52,6 +58,8 @@
       <h3 class="col-sm-offset-1">Agenda</h3>
       <ul class="agenda-list list-group">
         <li class="list-group-item">UX mobile patterns in Titanium, Javier Rayón</li>
+        <li class="list-group-item">Connecting your Arduino through mobile networks, a practical demo, Javier Zorzano</li>
+        <li class="list-group-item">Hybrid apps with Ionic, Sergio Gimeno</li>
       </ul>
     </div>
   </section>
@@ -59,47 +67,73 @@
   <section class="speakers row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Speakers</h3>
-      
-      <div class="speaker col-xs-12 col-sm-4">
-        
-          <div class="speaker-portrait" style="background-image: url(/assets/images/jrayon.jpg);"></div>
-          <span class="speaker-name">Javier Rayón</span>
-          <a href="http://twitter.com/jrayon"><i class="fa fa-twitter"></i> jrayon</a>
-          <p>Freelance mobile developer using Appcelerator Titanium since 2010. Expert in Appcelerator technologies, including Titanium, Alloy, Appcelerator Cloud Services (ACS) and iOS modules development.</p>
-        
-      </div>
-      
-      <div class="speaker col-xs-12 col-sm-4">
-        
-          <div class="speaker-portrait" style="background-image: url(/assets/images/andrew.jpg);"></div>
-          <span class="speaker-name">Andrew Savory</span>
-          <a href="http://twitter.com/savs"><i class="fa fa-twitter"></i> savs</a>
-          <p>Andrew is a Senior Technical Product Marketing Manager for Mobile at Adobe. He provides a bridge between engineering and the wider world, ensuring everyone knows about the great new features and functionalities that are being built, and how best to use them. Prior to Adobe, Andrew spent several years working in a mobile consortium building mobile platforms, and also worked extensively in systems integration where he delivered a wide range of enterprise content management solutions. Andrew is also passionate about open source and is a member of the Apache Software Foundation.</p>
-        
-      </div>
-      
-      <div class="speaker col-xs-12 col-sm-4">
-        
-          <span class="fa-stack fa-5x">
-            <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-question fa-stack-1x"></i>
-          </span>
-        
-      </div>
-      
     </div>
+    
+    <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
+      <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/jrayon.jpg);"></div>
+      <div class="speaker-profile">
+        <span class="speaker-name">Javier Rayón</span>
+        <p>Freelance mobile developer using Appcelerator Titanium since 2010. Expert in Appcelerator technologies, including Titanium, Alloy, Appcelerator Cloud Services (ACS) and iOS modules development.</p>
+        <a href="http://twitter.com/jrayon"><i class="fa fa-twitter"></i> jrayon</a>
+      </div>
+    </div>
+    
+    <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
+      <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/andrew.jpg);"></div>
+      <div class="speaker-profile">
+        <span class="speaker-name">Andrew Savory</span>
+        <p>Andrew is a Senior Technical Product Marketing Manager for Mobile at Adobe. He provides a bridge between engineering and the wider world. Prior to Adobe, Andrew spent several years working in a mobile consortium building mobile platforms. He is passionate about open source and is a member of the Apache Software Foundation.</p>
+        <a href="http://twitter.com/savs"><i class="fa fa-twitter"></i> savs</a>
+      </div>
+    </div>
+    
+    <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
+      <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/francisco.jpg);"></div>
+      <div class="speaker-profile">
+        <span class="speaker-name">Francisco Jordano</span>
+        <p>Francisco is crazy about web technologies and the web. With several years of experience in mobile web, has been expending the last 2 years working in Firefox OS and the Mozilla family, helping with the core applications and operating system. Passionate about the web and sharing knowledge, loves to teach and learn every single day.</p>
+        <a href="http://twitter.com/mepartoconmigo"><i class="fa fa-twitter"></i> mepartoconmigo</a>
+      </div>
+    </div>
+    
+    <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
+      <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/javier.jpg);"></div>
+      <div class="speaker-profile">
+        <span class="speaker-name">Javier Zorzano</span>
+        <p>Javier Zorzano is a telecommunications engineer, leading the Telefonica Physical Internet Lab. This lab, working between Madrid and Barcelona, aims to democratize the Internet of Things, opening it to developers, entrepeneurs, companies and even general public.</p>
+        <a href="http://twitter.com/zorzano"><i class="fa fa-twitter"></i> zorzano</a>
+      </div>
+    </div>
+    
+    <div class="speaker equal col-xs-12 col-sm-12 col-md-4">
+      <div class="speaker-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/sergio.jpg);"></div>
+      <div class="speaker-profile">
+        <span class="speaker-name">Sergio Gimeno</span>
+        <p>Sergio a freelance web/mobile developer at Agilogy and one of the AngularJS-Barcelona group organizers. He&#x27;s been using PhoneGap/Cordova since 2011 and playing around with many HTML5 single-page and mobile frameworks such as jQuery Mobile, Sencha Touch, Backbone or AngularJS.</p>
+        <a href="http://twitter.com/_sgimeno"><i class="fa fa-twitter"></i> _sgimeno</a>
+      </div>
+    </div>
+    
   </section>
 
   <section class="sponsors row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Sponsors</h3>
       
-      <div class="sponsor col-xs-6 col-sm-2">
+      <div class="sponsor col-xs-12 col-sm-4 text-center">
+        <a href="http://mozilla.org"><img class="sponsor-logo" src="/assets/images/mozilla.png" alt=Mozilla /></a>
+      </div>
+      
+      <div class="sponsor col-xs-12 col-sm-4 text-center">
         <a href="http://phonegap.com"><img class="sponsor-logo" src="/assets/images/phonegap-logo.jpg" alt=PhoneGap /></a>
       </div>
       
-      <div class="sponsor col-xs-6 col-sm-2">
+      <div class="sponsor col-xs-12 col-sm-4 text-center">
         <a href="http://www.appcelerator.com"><img class="sponsor-logo" src="/assets/images/appc-logo-stacked-light.png" alt=Appcelerator /></a>
+      </div>
+      
+      <div class="sponsor col-xs-12 col-sm-4 text-center">
+        <a href="http://www.telefonica.es"><img class="sponsor-logo" src="/assets/images/telefonica.jpg" alt=Telefonica /></a>
       </div>
       
       <div class="col-xs-12"><p>We're currently looking for sponsors. Interested? <a href="mailto:mobile@barcelonajs.org">Get in touch</a>.</p></div>
@@ -115,66 +149,79 @@
   <section class="team row">
     <div class="col-xs-12">
       <h3 class="col-sm-offset-1">Team</h3>
-      
-      <div class="member col-xs-12 col-sm-4">
-        
-          <div class="member-portrait" style="background-image: url(/assets/images/patrick.jpg);"></div>
-          <span class="member-name">Patrick Heneise</span>
-          <p><a href="http://twitter.com/PatrickHeneise"><i class="fa fa-twitter"></i> PatrickHeneise</a></p>
-        
-      </div>
-      
-      <div class="member col-xs-12 col-sm-4">
-        
-          <div class="member-portrait" style="background-image: url(/assets/images/alina.jpg);"></div>
-          <span class="member-name">Alina Mierlus</span>
-          <p><a href="http://twitter.com/alina_mierlus"><i class="fa fa-twitter"></i> alina_mierlus</a></p>
-        
-      </div>
-      
     </div>
+    
+    <div class="member equal col-xs-12 col-sm-12 col-md-6">
+      <div class="member-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/patrick.jpg);"></div>
+      <div class="member-profile">
+        <span class="member-name">Patrick Heneise</span>
+        <p>Patrick is Software Architect, engineering (mobile) solutions from server side services and APIs in node.js to html5 apps in JavaScript. He organises BarcelonaJS and the Couchbase Group Barcelona.</p>
+        <a href="http://twitter.com/PatrickHeneise"><i class="fa fa-twitter"></i> PatrickHeneise</a>
+      </div>
+    </div>
+    
+    <div class="member equal col-xs-12 col-sm-12 col-md-6">
+      <div class="member-portrait col-xs-6 col-sm-2" style="background-image: url(/assets/images/alina.jpg);"></div>
+      <div class="member-profile">
+        <span class="member-name">Alina Mierlus</span>
+        <p>Alina is a geek and web developer. She has been contributing to Mozilla since 2007 by helping the Romanian and Catalan teams to build a diverse community.</p>
+        <a href="http://twitter.com/alina_mierlus"><i class="fa fa-twitter"></i> alina_mierlus</a>
+      </div>
+    </div>
+    
   </section>
 </div>
 
 
-    </div>
+  </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script>$(document).ready(function(){
-       // cache the window object
-       $window = $(window);
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // cache the window object
+      $window = $(window);
 
-       $('section[data-type="background"]').each(function(){
-         // declare the variable to affect the defined data-type
-         var $scroll = $(this);
+      $('section[data-type="background"]').each(function() {
+        var $scroll = $(this);
 
-          $(window).scroll(function() {
-            // HTML5 proves useful for helping with creating JS functions!
-            // also, negative value because we're scrolling upwards
-            var yPos = -($window.scrollTop() / $scroll.data('speed'));
+        $(window).scroll(function() {
+          // HTML5 proves useful for helping with creating JS functions!
+          // also, negative value because we're scrolling upwards
+          var yPos = -($window.scrollTop() / $scroll.data('speed'));
 
-            // background position
-            var coords = '50% '+ yPos + 'px';
+          // background position
+          var coords = '50% ' + yPos + 'px';
 
-            // move the background
-            $scroll.css({ backgroundPosition: coords });
-          }); // end window scroll
-       });  // end section function
+          // move the background
+          $scroll.css({
+            backgroundPosition: coords
+          });
+        }); // end window scroll
+      }); // end section function
     }); // close out script
 
     /* Create HTML5 element for IE */
-    document.createElement("section");</script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    document.createElement("section");
+  </script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-37507281-3', 'barcelonajs.org');
-      ga('send', 'pageview');
-    </script>
-  </body>
+    ga('create', 'UA-37507281-3', 'barcelonajs.org');
+    ga('send', 'pageview');
+  </script>
+</body>
+
 </html>
