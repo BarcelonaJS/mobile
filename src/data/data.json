@@ -33,9 +33,19 @@
   ],
   "sponsors": [
     {
+      "name": "Mobile World Capital",
+      "logo": "/assets/images/mwc2x.png",
+      "url": "http://mobileworldcapital.com"
+    },
+    {
       "name": "Mozilla",
       "logo": "/assets/images/mozilla.png",
       "url": "http://mozilla.org"
+    },
+    {
+      "name": "Telefonica",
+      "logo": "/assets/images/telefonica.jpg",
+      "url": "http://www.telefonica.es"
     },
     {
       "name": "PhoneGap",
@@ -46,11 +56,6 @@
       "name": "Appcelerator",
       "logo": "/assets/images/appc-logo-stacked-light.png",
       "url": "http://www.appcelerator.com"
-    },
-    {
-      "name": "Telefonica",
-      "logo": "/assets/images/telefonica.jpg",
-      "url": "http://www.telefonica.es"
     }
   ],
   "team": [

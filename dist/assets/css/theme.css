@@ -89,6 +89,10 @@ h3 {
   padding: 10px;
 }
 
+.sponsor {
+  height: 200px;
+}
+
 .sponsor-logo {
   max-width: 250px;
 }
