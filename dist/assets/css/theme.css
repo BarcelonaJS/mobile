@@ -54,7 +54,7 @@ h3 {
   background-color: #333;
 }
 
-.speakers, .sponsors, .team, .agenda {
+.speakers, .supporters, .team, .agenda {
   margin-top: 50px;
 }
 
@@ -89,11 +89,11 @@ h3 {
   padding: 10px;
 }
 
-.sponsor {
+.supporter {
   height: 200px;
 }
 
-.sponsor-logo {
+.supporter-logo {
   max-width: 250px;
 }
 
