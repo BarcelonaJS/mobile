@@ -56,6 +56,11 @@
       "name": "Appcelerator",
       "logo": "/assets/images/appc-logo-stacked-light.png",
       "url": "http://www.appcelerator.com"
+    },
+    {
+      "name": "Barcelona.IO",
+      "logo": "/assets/images/barcelonaio.png",
+      "url": "http://www.barcelona.io"
     }
   ],
   "team": [
