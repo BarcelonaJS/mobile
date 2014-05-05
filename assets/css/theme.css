@@ -17,7 +17,7 @@ a:hover {
   width: 100%;
   position: relative;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
-  padding: 150px 0;
+  padding: 75px 0;
 }
 
 h1 {
@@ -99,10 +99,17 @@ h3 {
 
 .mostimportant {
   font-size: 1.5em;
-  margin-top: 75px;
+  margin-top: 45px;
   padding: 25px;
   color: white;
   background-color: rgba(255,0,0,0.5);;
+}
+
+.intro {
+  font-size: 1.2em;
+  padding: 25px;
+  color: #000;
+  background-color: rgba(0,120,0,0.5);
 }
 
 div.equal {
