@@ -91,10 +91,12 @@ h3 {
 
 .supporter {
   height: 200px;
+  line-height: 200px;
 }
 
 .supporter-logo {
   max-width: 250px;
+  vertical-align: middle;
 }
 
 .mostimportant {
