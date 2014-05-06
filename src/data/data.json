@@ -33,6 +33,11 @@
   ],
   "supporters": [
     {
+      "name": "XING",
+      "logo": "/assets/images/xing.jpg",
+      "url": "http://xing.com"
+    },
+    {
       "name": "Mobile World Capital",
       "logo": "/assets/images/mwc2x.png",
       "url": "http://mobileworldcapital.com"
