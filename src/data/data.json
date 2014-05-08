@@ -29,6 +29,12 @@
       "name": "Sergio Gimeno",
       "portrait": "/assets/images/sergio.jpg",
       "bio": "Sergio a freelance web/mobile developer at Agilogy and one of the AngularJS-Barcelona group organizers. He's been using PhoneGap/Cordova since 2011 and playing around with many HTML5 single-page and mobile frameworks such as jQuery Mobile, Sencha Touch, Backbone or AngularJS."
+    },
+    {
+      "twitter": "saritarink",
+      "name": "Sarah Rink",
+      "portrait": "/assets/images/sarah.jpg",
+      "bio": "Lean UX specialist who has designed products used by millions of users around the world for companies like Samsung, The Times & Sunday Times and ninemsn. She currently works with a number of local startups, to help them rapidly create and explore new products and experiences for their users. She is also founder of SocialToy."
     }
   ],
   "supporters": [
