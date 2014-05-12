@@ -58,6 +58,10 @@ h3 {
   margin-top: 50px;
 }
 
+.agenda small {
+  color: gray;
+}
+
 .speaker, .member {
   margin-bottom: 66px;
   padding-left: 0;
