@@ -87,5 +87,59 @@
       "portrait": "/assets/images/alina.jpg",
       "bio": "Alina is a geek and web developer. She has been contributing to Mozilla since 2007 by helping the Romanian and Catalan teams to build a diverse community."
     }
+  ],
+  "agenda": [
+    {
+      "time": "9.30",
+      "title": "<strong>Registration & Coffee</strong>"
+    },
+    {
+      "time": "10.00",
+      "title": "<small>Andrew Savory</small>"
+    },
+    {
+      "time": "11.05",
+      "title": "The Ionic Framework. <small>Sergio Gimeno</small>"
+    },
+    {
+      "time": "11.35",
+      "title": "Coffee break"
+    },
+    {
+      "time": "12.00",
+      "title": "<small>Sarah Rink</small>"
+    },
+    {
+      "time": "12.35",
+      "title": "UX mobile patterns in Titanium. <small>Javier Rayón</small>"
+    },
+    {
+      "time": "13.05",
+      "title": "Lunch break"
+    },
+    {
+      "time": "14.30",
+      "title": "Connecting your Arduino through mobile networks, a practical demo. <small>Javier Zorzano.</small>"
+    },
+    {
+      "time": "15.05",
+      "title": "<strong>Free slot</strong>"
+    },
+    {
+      "time": "15.35",
+      "title": "Coffee break"
+    },
+    {
+      "time": "16.00",
+      "title": "<strong>Free slot</strong>"
+    },
+    {
+      "time": "16.35",
+      "title": "<small>Francisco Jordano</small>"
+    },
+    {
+      "time": "17.05",
+      "title": "<strong>Finish & Beers</strong>"
+    }
   ]
 }

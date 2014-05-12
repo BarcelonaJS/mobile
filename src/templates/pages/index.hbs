@@ -40,11 +40,12 @@
 <section class="agenda row">
   <div class="col-xs-12">
     <h3 class="col-sm-offset-1">Agenda</h3>
-    <ul class="agenda-list list-group">
-      <li class="list-group-item">UX mobile patterns in Titanium, Javier Rayón</li>
-      <li class="list-group-item">Connecting your Arduino through mobile networks, a practical demo, Javier Zorzano</li>
-      <li class="list-group-item">Hybrid apps with Ionic, Sergio Gimeno</li>
-    </ul>
+    <dl class="agenda-list dl-horizontal">
+      {{#each agenda}}
+      <dt>{{time}}</dt>
+      <dd>{{{title}}}</dd>
+      {{/each}}
+    </dl>
   </div>
 </section>
 
