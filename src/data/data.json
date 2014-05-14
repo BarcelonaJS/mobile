@@ -7,6 +7,12 @@
       "bio": "Freelance mobile developer using Appcelerator Titanium since 2010. Expert in Appcelerator technologies, including Titanium, Alloy, Appcelerator Cloud Services (ACS) and iOS modules development."
     },
     {
+      "twitter": "sonianoneka",
+      "name": "Sonia Villanueva de Azcona",
+      "portrait": "/assets/images/sonia.jpg",
+      "bio": "UXer & strategy consultant for +10 years, who aims to be inspired with design, strategy and technology. She is founder of noneko, a design studio based in Madrid focused on complex and significative projects for innovative tech-driven companies."
+    },
+    {
       "twitter": "savs",
       "name": "Andrew Savory",
       "portrait": "/assets/images/andrew.jpg",
@@ -107,11 +113,11 @@
     },
     {
       "time": "12.00",
-      "title": "<small>Sarah Rink</small>"
+      "title": "Your app is not your product. <small>Sarah Rink</small>"
     },
     {
       "time": "12.35",
-      "title": "UX mobile patterns in Titanium. <small>Javier Rayón</small>"
+      "title": "UX mobile patterns in Titanium. <small>Javier Rayón, Sonia Villanueva de Azcona</small>"
     },
     {
       "time": "13.05",
