@@ -41,6 +41,12 @@
       "name": "Sarah Rink",
       "portrait": "/assets/images/sarah.jpg",
       "bio": "Lean UX specialist who has designed products used by millions of users around the world for companies like Samsung, The Times & Sunday Times and ninemsn. She currently works with a number of local startups, to help them rapidly create and explore new products and experiences for their users. She is also founder of SocialToy."
+    },
+    {
+      "twitter": "andreehuk",
+      "name": "Andree Huk",
+      "portrait": "/assets/images/andree.jpg",
+      "bio": "Product + User Experience fanatic, grew upptalk.com from a small user base to 5+ million actives, co-hosted Angelhack Barcelona, founder of StartupDodgeball.net, co-founder + co-host of TECHDINGS.COM, the German technology show, founded and sold cargraphics, a German car-tuning ecommerce site after the .COM crash, he writes at andreehuk.com"
     }
   ],
   "supporters": [
@@ -137,7 +143,7 @@
     },
     {
       "time": "16.00",
-      "title": "<strong>Free slot</strong>"
+      "title": "Growth hacking for mobile. <small>Andree Huk</small>"
     },
     {
       "time": "16.35",
