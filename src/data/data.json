@@ -107,11 +107,13 @@
     },
     {
       "time": "10.00",
-      "title": "Apache Cordova, PhoneGap, and rapid mobile development. <small>Andrew Savory</small>"
+      "title": "Apache Cordova, PhoneGap, and rapid mobile development. <small>Andrew Savory</small>",
+      "video": "https://vimeo.com/97152197"
     },
     {
       "time": "11.05",
-      "title": "The Ionic Framework. <small>Sergio Gimeno</small>"
+      "title": "The Ionic Framework. <small>Sergio Gimeno</small>",
+      "video": "https://vimeo.com/97181360"
     },
     {
       "time": "11.35",
@@ -119,11 +121,13 @@
     },
     {
       "time": "12.00",
-      "title": "Your app is not your product. <small>Sarah Rink</small>"
+      "title": "Your app is not your product. <small>Sarah Rink</small>",
+      "video": "https://vimeo.com/97265759"
     },
     {
       "time": "12.35",
-      "title": "UX mobile patterns in Titanium. <small>Javier Rayón, Sonia Villanueva de Azcona</small>"
+      "title": "UX mobile patterns in Titanium. <small>Javier Rayón, Sonia Villanueva de Azcona</small>",
+      "video": "https://vimeo.com/97503211"
     },
     {
       "time": "13.05",
@@ -131,11 +135,13 @@
     },
     {
       "time": "14.30",
-      "title": "Connecting your Arduino through mobile networks, a practical demo. <small>Javier Zorzano.</small>"
+      "title": "Connecting your Arduino through mobile networks, a practical demo. <small>Javier Zorzano.</small>",
+      "video": "https://vimeo.com/97650740"
     },
     {
       "time": "15.05",
-      "title": "Panel Discussion - Mobile Applications and the Mobile Web"
+      "title": "Panel Discussion - Mobile Applications and the Mobile Web",
+      "video": "https://vimeo.com/97650742"
     },
     {
       "time": "15.35",
@@ -143,11 +149,13 @@
     },
     {
       "time": "16.00",
-      "title": "Growth hacking for mobile. <small>Andree Huk</small>"
+      "title": "Growth hacking for mobile. <small>Andree Huk</small>",
+      "video": "https://vimeo.com/97742211"
     },
     {
       "time": "16.35",
-      "title": "Mobile web: pushing hard for browsers modernisation. <small>Francisco Jordano</small>"
+      "title": "Mobile web: pushing hard for browsers modernisation. <small>Francisco Jordano</small>",
+      "video": "https://vimeo.com/97813585"
     },
     {
       "time": "17.05",
